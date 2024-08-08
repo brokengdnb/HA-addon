@@ -1,6 +1,6 @@
 name: "Twingate"
 description: "Add-on to add Twingate agent into Home Assistant for private VPN tunnel"
-version: "1.0.0"
+version: "1.0.1"
 slug: "hello_world"
 init: false
 arch:

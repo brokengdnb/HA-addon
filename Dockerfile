@@ -5,6 +5,5 @@ FROM $BUILD_FROM
 COPY run.sh /
 RUN chmod a+x /run.sh
 RUN curl -fsSL https://get.docker.com -o /get-docker.sh
-RUN sh /get-docker.sh
 
 CMD [ "/run.sh" ]
